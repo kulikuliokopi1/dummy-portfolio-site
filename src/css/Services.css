@@ -1,0 +1,444 @@
+/* About.css */
+
+.services-container {
+    position: relative;
+    background-color:  #f4f4f4;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    z-index: -11;
+    
+    overflow: hidden;
+}
+
+
+
+.services-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    justify-content: center;
+    padding-top: 5rem;
+    text-align: left;
+}
+
+.services-contents .services-content1 img {
+    width: 60%;
+    height: auto;
+    left: 0;
+    margin-left: -150px;
+    border-radius: 5rem;
+}
+
+
+.services-content1,
+.services-content3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-txt1,
+.services-txt2,
+.services-txt3 {
+    padding: 20px;
+}
+
+.services-content1 h2,
+.services-content2 h2 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin: 30px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.services-content1 p,
+.services-content2 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 30px;
+}
+
+.services-content2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem;
+    
+    border-bottom: 2px solid #e9e9e9;
+
+}
+  
+.services-contents .services-content2 img {
+    width: 60%;
+    height: auto;
+    position: relative;
+    right: 0;
+    margin-right: -150px;
+    border-radius: 5rem;
+}
+
+.services-content3 {
+    margin-top: 5rem;
+}
+
+.services-contents .services-content3 img {
+    width: 70%;
+    position: relative;
+    height: auto;
+    left: 0;
+}
+
+
+.services-content3 h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin: 30px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+
+.services-content3 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 30px;
+}
+
+.services-content4 {
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 40px 80px;
+}
+
+.services-contents .services-content4 img {
+    width: 40%;
+    position: relative;
+    height: auto;
+}
+
+
+.services-content4 h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin: 30px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+
+.services-content4 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 30px;
+}
+
+.get-help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem 0rem;
+}
+
+.get-help-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.get-help-item1,
+.get-help-item2,
+.get-help-item3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33.33%;
+}
+
+.get-help-item1 img,
+.get-help-item2 img,
+.get-help-item3 img {
+    width: 100px;
+    height: auto;
+}
+
+
+.get-help-txt1,
+.get-help-txt2,
+.get-help-txt3 {
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+.get-help-txt1 p,
+.get-help-txt2 p,
+.get-help-txt3 p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 10px;
+}
+
+.get-help-txt1 h2,
+.get-help-txt2 h2,
+.get-help-txt3 h2 {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin: 10px;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.get-help h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin: 1rem 0rem 1rem 2rem;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .services-content3 {
+        margin-top: 5rem;
+    }
+    
+    .services-contents .services-content3 img {
+        width: 50%;
+        position: relative;
+        height: auto;
+        left: 0;
+    }
+
+    .services-contents .services-content4 img {
+        width: 80%;
+        position: relative;
+        height: auto;
+    }
+
+    .get-help-item1 img,
+    .get-help-item2 img,
+    .get-help-item3 img {
+        width: 70px;
+        height: auto;
+    }
+    
+    
+    .get-help-txt1,
+    .get-help-txt2,
+    .get-help-txt3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    }
+    
+    .get-help-txt1 p,
+    .get-help-txt2 p,
+    .get-help-txt3 p {
+        line-height: 1.5rem;
+        margin: 5px;
+    }
+    
+    .get-help-txt1 h2,
+    .get-help-txt2 h2,
+    .get-help-txt3 h2 {
+        line-height: 2rem;
+        margin: 5px;
+    }
+    
+    .get-help h1 {
+        line-height: 1.5rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    
+.services-container {
+    padding: 0 10px;
+    
+    overflow: hidden;
+}
+    .services-contents {
+        padding-top: 6rem;
+    }
+
+    .services-contents .services-content1 img {
+        width: 80%;
+        height: auto;
+        margin-left: 0px;
+        border-radius: 1rem;
+    }
+    
+    
+    .services-content1,
+    .services-content3 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services-txt1,
+    .services-txt2,
+    .services-txt3 {
+        padding: 10px;
+    }
+    
+    .services-content1 h2,
+    .services-content2 h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin: 20px;
+        letter-spacing: 0;
+    }
+    
+    .services-content1 p,
+    .services-content2 p {
+        margin: 30px 20px;
+    }
+    
+    .services-content2 {
+        flex-direction: column-reverse;
+        padding: 5rem 0rem 3rem 0rem;
+    
+    }
+      
+    .services-contents .services-content2 img {
+        width: 80%;
+        height: auto;
+        margin: 0;
+        border-radius: 1rem;
+    }
+    
+    .services-content3 {
+        margin-top: 5rem;
+    }
+    
+    .services-contents .services-content3 img {
+        width: 100%;
+        position: relative;
+        height: auto;
+        left: 0;
+    }
+    
+    
+    .services-content3 h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin: 20px;
+        letter-spacing: 0;
+    }
+    
+    
+    .services-content3 p {
+        margin: 30px 20px;
+    }
+    
+    .services-content4 {
+        flex-direction: column;
+        margin: 0px;
+        padding: 5rem 10px;
+    }
+    
+    .services-contents .services-content4 img {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    
+    
+    .services-content4 h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin: 30px 20px;
+        letter-spacing: 0;
+    }
+    
+    
+    .services-content4 p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 30px 20px;
+    }
+
+    .get-help {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem 1rem;
+    }
+    
+    .get-help-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .get-help-item1,
+    .get-help-item2,
+    .get-help-item3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .get-help-item1 img,
+    .get-help-item2 img,
+    .get-help-item3 img {
+        width: 70px;
+        height: auto;
+    }
+    
+    
+    .get-help-txt1,
+    .get-help-txt2,
+    .get-help-txt3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    }
+    
+    .get-help-txt1 p,
+    .get-help-txt2 p,
+    .get-help-txt3 p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin: 5px;
+    }
+    
+    .get-help-txt1 h2,
+    .get-help-txt2 h2,
+    .get-help-txt3 h2 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin: 5px;
+    }
+    
+    .get-help h1 {
+        font-size: 1.8rem;
+        line-height: 1.5rem;
+    }
+}

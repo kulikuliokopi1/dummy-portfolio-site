@@ -1,0 +1,109 @@
+.user-details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    align-items: center;
+}
+
+.user-details-container .details-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .4);
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px 20px;
+    border-left: .5px solid #fc0;
+    margin-left: 20px;
+    background-color: #f8f8f8;
+}
+
+.user-details-container .details-content h2 {
+    color: #fc0;
+    margin-bottom: 0px;
+}
+
+.user-details-container .details-content .user-id {
+    margin-bottom: 40px;
+}
+
+.update-user-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details-container .details-content .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .5rem solid #fc0;
+}
+
+.user-details-container .details-content .image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-details-container .details-content .upload-img {
+    margin: 20px 0px;
+}
+
+
+.user-details-container .details-content .split-in-col,
+.user-details-container .details-content .update-user-container .split-in-col {
+    display: flex;
+}
+
+.user-details-container .details-content  .split-in-col span,
+.user-details-container .details-content .update-user-container  .split-in-col span {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.user-details-container .details-content .update-user-container  .split-in-col span label {
+    margin-bottom: 20px;
+}
+
+.user-details-container .details-content .update-user-container  .split-in-col span label input {
+    margin-left: 10px;
+    width: 80%;
+    padding: 5px 10px;
+}
+
+
+.close-user-details-div {
+    text-align: right;
+  }
+  .close-user-details-icon {
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    padding: 10px;
+    cursor: pointer;
+
+  }
+
+  .close-user-details-icon:hover {
+    color: #fc0;
+  }
+
+  .user-details-container button {
+    font-size: 1rem;
+    background-color: #fc0;
+    padding: 5px 20px;
+    width: 20%;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .4);
+    border: none;
+    transition: .3s ease;
+  }
+
+  .user-details-container button:hover {
+    color: #fff;
+  }

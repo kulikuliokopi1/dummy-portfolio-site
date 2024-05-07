@@ -1,0 +1,104 @@
+/* LogIn.css */
+
+
+body {
+    overscroll-behavior-y: none;
+  }
+
+  .login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .login-container .image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+  }
+
+
+  
+  .user-login-body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+      background-color: #fefefe;
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+  }
+  
+  .user-login-body h2 {
+      font-size: 1.8rem;
+      line-height: 3rem;
+      margin: 30px;
+      font-weight: 800;
+      letter-spacing: 0;
+  }
+  
+  .form-items,
+  .form-item1,
+  .form-item2 {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .form-items {
+      width: 300px;
+  }
+  .form-items .form-item1,
+  .form-items .form-item2 {
+      margin-bottom: 2rem;
+  }
+  
+  
+  .form-items .form-item1 label,
+  .form-items .form-item2 label {
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      padding: 5px;
+  }
+  
+  .form-items .form-item1 input,
+  .form-items .form-item2 input {
+      padding: 10px 20px;
+      border-radius: 3px;
+      border-width: 0;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+  }
+  
+  .form-items button {
+      padding: 10px 20px;
+      border-radius: 3px;
+      border-width: 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+      background-color: #ffcc00;
+      cursor: pointer;
+  }
+  
+  .form-items button:hover {
+      background-color: #ffcc00c7;
+  }
+
+  @media (max-width: 768px) {
+
+    .user-login-body {
+        width: 100%;
+        position: absolute;
+        
+    }
+  }
+  
+  
+  

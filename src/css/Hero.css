@@ -1,0 +1,254 @@
+/* About.css */
+
+.hero-container {
+    position: relative;
+    width: 100vw;
+    height: 500px; /* Adjust this value based on your header height */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+}
+
+.hero-image {
+    top: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    width: 60%;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    margin: 80px 0px 0px 30px;
+    padding: 4rem 0;
+
+}
+
+.banner-content-inner {
+    position: relative;
+    border-left: 1rem solid #fc0;
+    padding: 0 4rem;
+}
+
+.banner-content-inner h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.banner-content-inner p {
+    font-family: CBABeaconSans,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.banner-content2 {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    margin: 30px 30px 0px 30px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    padding: 20px;
+}
+  
+.savings,
+.loans {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.savings img,
+.loans img {
+    width: 100px;
+    height: auto;
+    
+}
+
+.savings h3,
+.loans h3 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    margin-bottom: .0rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.savings p,
+.loans p {
+    font-family: CBABeaconSans,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    margin: 0;
+    color: #ffcc00;
+}
+
+.loans p span:first-child {
+    padding-right: 5px;
+}
+
+.divider{
+    width: 2px;
+    height: 70%;
+    background-color: #e9e9e9;
+}
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        position: relative;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .banner-content {
+        display: flex;
+        position: relative;
+        width: 70%;
+        background-color: #ffffff;
+        margin: 20rem 0px 0px 0px;
+        padding: 1rem 0;
+    }
+
+    .banner-content-inner {
+        padding: 0 1rem;
+    }
+    
+    .banner-content-inner h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    
+    .banner-content-inner p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    
+    .banner-content2 {
+        display: flex;
+        position: relative;
+        height: 100px;
+        width: 100%;
+        margin: 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    .hero-container {
+        height: 60vh;
+    }
+    .banner-content {
+        display: flex;
+        position: relative;
+        width: 90%;
+        background-color: #ffffff;
+        margin: 10rem 0px 0px 0px;
+        padding: 1rem 0;
+    }
+
+    .banner-content-inner {
+        position: relative;
+        border-left: .5rem solid #fc0;
+    }
+
+    .banner-content-inner h1 {
+        font-size: 1.5rem;
+        line-height: 1rem;
+        margin-bottom: .5rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    
+    .banner-content-inner p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        text-align: left;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+    .savings img,
+    .loans img {
+        width: 50px;
+        height: auto; 
+    }
+
+    .savings h3,
+    .loans h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: .0rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-align: left;
+    }
+
+    .savings p,
+    .loans p {
+        font-size: .9rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    .loans p span:first-child {
+        padding-right: 5px;
+    }
+
+    .divider{
+        width: 2px;
+        height: 70%;
+        background-color: #e9e9e9;
+    }
+
+
+  }
+
+
